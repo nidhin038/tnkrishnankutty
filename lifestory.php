@@ -3,7 +3,7 @@
 ?>
 
 <div class="intro-section" id="home-section">
-
+Life Story comes here
 
 </div>
 
