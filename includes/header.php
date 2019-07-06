@@ -24,7 +24,7 @@
     <link rel="stylesheet" href="css/aos.css">
 
     <link rel="stylesheet" href="css/style.css">
-    
+    <script src="js/jquery-3.3.1.min.js"></script>
   </head>
   <body data-spy="scroll" data-target=".site-navbar-target" data-offset="300">
   
@@ -44,20 +44,20 @@
       
       <div class="container-fluid">
         <div class="d-flex align-items-center">
-          <div class="site-logo"><a href="index.html">TNK</a></div>
+          <div class="site-logo"><a href="index.php">TNK</a></div>
           <div>
             <nav class="site-navigation position-relative text-right" role="navigation">
               <ul class="site-menu main-menu js-clone-nav mr-auto d-none d-lg-block">
                 <li><a href="lifestory.php" class="nav-link">Life Story</a></li>
-                <li><a href="#process-section" class="nav-link">Awards</a></li>
-                <li><a href="#services-section" class="nav-link">Gallery</a></li>
+                <li><a href="awards.php" class="nav-link">Awards</a></li>
+                <li><a href="gallery.php" class="nav-link">Gallery</a></li>
               </ul>
             </nav>
           </div>
           <div class="ml-auto">
             <nav class="site-navigation position-relative text-right" role="navigation">
               <ul class="site-menu main-menu site-menu-dark js-clone-nav mr-auto d-none d-lg-block">
-                <li class="cta"><a href="#contact-section" class="nav-link"><span class="rounded border border-primary">Contact</span></a></li>
+                <li class="cta"><a href="#contact-section" class="nav-link"><span class="rounded border border-primary for-inner">Contact</span></a></li>
               </ul>
             </nav>
             <a href="#" class="d-inline-block d-lg-none site-menu-toggle js-menu-toggle text-black float-right"><span class="icon-menu h3"></span></a>

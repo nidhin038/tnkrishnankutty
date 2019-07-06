@@ -18,8 +18,7 @@
         </div>
       </div>
     </div>
-
-   
+ 
   </div> <!-- .site-wrap -->
 <?php
 	include("includes/footer.php");
