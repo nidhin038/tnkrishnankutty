@@ -10,3 +10,15 @@ header{
 	border:1px solid #ffffff!important;
 	color:#FFFFFF !important;
 }
+
+.film-padding{
+	padding: 0 50px 0 50px;
+}
+
+.search-film-container{
+	margin:130px 0 25px 0;
+}
+
+.films-container p{
+	color: rgb(85, 89, 92) !important;
+}

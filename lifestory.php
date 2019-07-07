@@ -1,6 +1,3 @@
-<?php
-	include("includes/header.php");
-?>
 <link rel="stylesheet" href="css/innerpage.css">
 <link rel="stylesheet" href="css/life-story.css">
 
@@ -167,7 +164,3 @@
 </div>
 
 </div>
-
-<?php
-	include("includes/footer.php");
-?>
