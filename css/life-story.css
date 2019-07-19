@@ -1795,3 +1795,26 @@
 }
 
 /**************Who View Your Profile CSS End Here****************/
+
+.lifeevent-desc{
+	font-size:13px !important;
+}
+.timeline-height{
+	height: 210px;
+}
+
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px)  { 
+
+.timeline-height{
+	height: 335px;
+}
+}
+
+
+@media only screen and (max-width: 600px) {
+	.timeline-height{
+		height: 290px;
+	}
+}
