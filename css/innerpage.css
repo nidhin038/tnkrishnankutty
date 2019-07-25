@@ -22,3 +22,12 @@ header{
 .films-container p{
 	color: rgb(85, 89, 92) !important;
 }
+
+.page-container{
+	padding: 115px 70px 0 70px !important;
+}
+
+.page-title{
+	margin:0 0 25px 0;
+	
+}

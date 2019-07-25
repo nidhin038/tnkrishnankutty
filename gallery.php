@@ -1,14 +1,17 @@
 <link rel="stylesheet" href="css/innerpage.css">
 <link rel="stylesheet" href="css/lite-box.css"> 
 <script src="js/lite-box.js"></script>
-<div class="intro-section" id="home-section">
 
 
 <!------ Include the above in your HEAD tag ---------->
 
 
 
-<div class="container-fluid">
+<div class="container-fluid page-container">
+
+<div class="page-title">
+	<h4>Gallery</h4>
+</div>
 
 <div class="container">
 	<div class="row">
