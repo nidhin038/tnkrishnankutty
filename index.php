@@ -1,14 +1,16 @@
 <?php
-	include("includes/header.php");
+include("includes/header.php");
+$page= "home";
+if(isset($_GET['page']) && $_GET['page']){
+	$page=$_GET['page'];
+}
+$isFileExists = file_exists($page.".php");
 
-  $page=$_GET['page'];
-  $isFileExists = file_exists($page.".php");
-  
-  if(!$isFileExists){
-   $page="home"; 
-  }
+if(!$isFileExists){
+$page="home"; 
+}
 
-  include($page.".php");
+include($page.".php");
 
-	include("includes/footer.php");
+include("includes/footer.php");
 ?>

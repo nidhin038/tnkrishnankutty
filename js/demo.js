@@ -16,21 +16,14 @@ $(function() {
 
   // Load demo images from flickr:
   $.ajax({
-    url: 'https://api.flickr.com/services/rest/',
-    data: {
-      format: 'json',
-      method: 'flickr.interestingness.getList',
-      // eslint-disable-next-line camelcase
-      api_key: '7617adae70159d09ba78cfec73c13be3'
-    },
-    dataType: 'jsonp',
-    jsonp: 'jsoncallback'
+    url: 'json/gallery.json',
+    method: 'get'
   }).done(function(result) {
     var carouselLinks = []
     var linksContainer = $('#links')
     var baseUrl
     // Add the demo images as links with thumbnails to the page:
-    $.each(result.photos.photo, function(index, photo) {
+    $.each(result, function(index, photo) {
       baseUrl =
         'https://farm' +
         photo.farm +
@@ -41,9 +34,9 @@ $(function() {
         '_' +
         photo.secret
       $('<a/>')
-        .append($('<img>').prop('src', baseUrl + '_s.jpg'))
-        .prop('href', baseUrl + '_b.jpg')
-        .prop('title', photo.title)
+        .append($('<img>').prop('src', 'images/'+photo.photo))
+        .prop('href', 'images/'+photo.photo)
+        .prop('title', photo.photo)
         .attr('data-gallery', '')
         .appendTo(linksContainer)
       carouselLinks.push({
