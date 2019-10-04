@@ -862,4 +862,8 @@ h1, h2, h3, h4, h5,
   .home-image{
       margin:-78px 0px 0px 42px !important; 
   }
+  
+  .here-starts{
+    margin: 0 0 0 91px;
+  }
 }
