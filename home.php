@@ -4,7 +4,7 @@
           <div class="col-lg-4 mr-auto" >
             <h1>MY LIFE MY MESSAGE</h1>
             <p class="mb-5">A life lived as a cinematographer. In the remarkable days of malayalam film industry, during the transition period of BLACK AND WHITE to COLOUR.</p>
-            <p><a href="#" class="btn btn-outline-light py-3 px-5">HERE STARTS</a></p>
+            <p><a href="#" class="btn btn-outline-light py-3 px-5 here-starts">HERE STARTS</a></p>
 
           </div>
           <div class="col-lg-2 ml-auto"  data-aos="fade-up" data-aos-delay="100">
