@@ -8,7 +8,7 @@
 
           </div>
           <div class="col-lg-2 ml-auto"  data-aos="fade-up" data-aos-delay="100">
-            <figure class="img-absolute">
+            <figure class="img-absolute home-image">
               <img src="images/ph1.jpg" alt="Image" class="img-fluid" height="5000" width="3000">
             </figure>
           </div>
